@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;    
+    width: 100%;
+    height: 60%;
+    }
+    
+    
+    .btn-hamburguer{
+        display: block;
+        background: none;
+        color: white;
+        border: none;
+        font-size: 50px;
+        margin-left: 10px;
+    }
+
+    #itens{
+        display: none;
+    }
+
+header img{
+    width: 100%;
+}
+
+h2, h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#472912;
+    font-size: 2rem;
+    margin-bottom: 8%;
+    margin-left: 30px;;
+}
+
+#sobre{
+    background-color: rgb(247, 230, 200);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 5%;
+}
+
+.justificado{
+    text-align: justify;
+    margin: 7%;
+}
+#container-destaques{
+font-size: 1.5rem;
+   
+}
+
+.opcaos{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.tipos-cafes{
+    width: 75%;
+    height: 40%;
+    border-radius: 4%;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+#login{
+    background-color:#f8e7c9;
+    padding: 10px;
+    padding-bottom: 10%;
+}
+
+#form-login{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCC;
+        
+}
+
+form{
+    margin-top: 7%;
+    width: 100%;
+    font-size: 2rem;
+    
+   
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: 1px solid #C4C4C4;
+}
+#botoes{
+    display: flex;
+    justify-content: center;
+    
+}
+input[type="submit"], input[type="reset"]{
+    margin: 40px;
+    width: 170px;  
+    height: 40px; 
+    border-radius: 8px;
+    border: none; 
+}
+
+input[type="submit"]{
+    background-color:#00bcd4;
+    color: white;
+}
+input[type="reset"]{
+    background-color: red;
+    color: white;
+ }
+
+ footer{
+    background-color: #212121;
+    padding: 15px;
+    color: white;
+   
+ }
+
+ footer a{
+    color: white;
+ }
+
+ footer a, p{
+    text-align: center;
+ }
+
+ 
+@media (min-width: 600px){
+
+    #itens{
+        display: flex;
+       
+    }
+    .btn-hamburguer{
+        display: none;
+    }
+    
+   .menu{
+    height: 60px;
+    justify-content: right;
+    display: flex;
+    gap:20px;
+    padding-right: 7%;
+    
+   } 
+   .menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px; 
+    font-size: 1.2rem; 
+   } 
+h1, h2{
+    font-size: 2.5rem;  
+    margin-bottom: 2%;
+}
+.justificado{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.tipos-cafes{
+    width: 90%;
+    height: 300px;
+}
+
+
+#container-destaques{
+    margin-top: 5%;
+    display: flex;
+     
+}
+
+.conteudo{
+    font-size: 1.5rem;
+    gap: 10px;
+}
+
+#form-login{
+    width: 27%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCC;
+        
+}
+form{
+    margin-top: 7%;
+    width: 100%;
+    font-size: 1.5rem;
+      
+}
+input[type="submit"], input[type="reset"]{
+
+    width: 140px;  
+    height: 40px; 
+
+}
+
+
+}
